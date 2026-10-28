@@ -1,0 +1,21 @@
+SYSTEM ARCHITECTURE
+
+[Reference PCB Image]          [Test PCB Image]
+          |                            |
+          +-------------+--------------+
+                        |
+              [Image Loading & Validation]
+                        |
+              [Resize / Grayscale / Blur]
+                        |
+               [Absolute Difference]
+                        |
+                   [Thresholding]
+                        |
+              [Noise Filtering / Contours]
+                        |
+              [Highlight Changed Regions]
+                        |
+                 [Human Inspection]
+
+Note: This architecture describes the baseline image-processing prototype, not a trained AI model.
